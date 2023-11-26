@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>于</title>
-    <link>https://perfec-yu.github.io/</link>
-      <atom:link href="https://perfec-yu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>于</description>
+    <title>张</title>
+    <link>https://bladedancer957.github.io/</link>
+      <atom:link href="https://bladedancer957.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>张</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://perfec-yu.github.io/media/icon_hu70abeb15d803708cc6c51bdc94153538_368998_512x512_fill_lanczos_center_3.png</url>
-      <title>于</title>
-      <link>https://perfec-yu.github.io/</link>
+      <url>https://blade dance r.github.io/media/icon_hu70abeb15d803708cc6c51bdc94153538_368998_512x512_fill_lanczos_center_3.png</url>
+      <title>张</title>
+      <link>https://bladedancer957.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://perfec-yu.github.io/talk/example-talk/</link>
+      <link>https://bladedancer957.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/talk/example-talk/</guid>
+      <guid>https://bladedancer957.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,49 +34,49 @@
     
     <item>
       <title>Event Extractor with Only a Few Examples</title>
-      <link>https://perfec-yu.github.io/publication/yu-etal-2022-event/</link>
+      <link>https://bladedancer957.github.io/publication/yu-etal-2022-event/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/yu-etal-2022-event/</guid>
+      <guid>https://bladedancer957.github.io/publication/yu-etal-2022-event/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RESIN-11: Schema-guided Event Prediction for 11 Newsworthy Scenarios</title>
-      <link>https://perfec-yu.github.io/publication/du-etal-2022-resin/</link>
+      <link>https://bladedancer957.github.io/publication/du-etal-2022-resin/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/du-etal-2022-resin/</guid>
+      <guid>https://bladedancer957.github.io/publication/du-etal-2022-resin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 Claim Radar: A Structured Claim Extraction and Tracking System</title>
-      <link>https://perfec-yu.github.io/publication/li-etal-2022-covid/</link>
+      <link>https://bladedancer957.github.io/publication/li-etal-2022-covid/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/li-etal-2022-covid/</guid>
+      <guid>https://bladedancer957.github.io/publication/li-etal-2022-covid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lifelong Event Detection with Knowledge Transfer</title>
-      <link>https://perfec-yu.github.io/publication/yu-etal-2021-lifelong/</link>
+      <link>https://bladedancer957.github.io/publication/yu-etal-2021-lifelong/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/yu-etal-2021-lifelong/</guid>
+      <guid>https://bladedancer957.github.io/publication/yu-etal-2021-lifelong/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MUSE: Textual Attributes Guided Portrait Painting Generation</title>
-      <link>https://perfec-yu.github.io/publication/xiaodan-2021-muse/</link>
+      <link>https://bladedancer957.github.io/publication/xiaodan-2021-muse/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/xiaodan-2021-muse/</guid>
+      <guid>https://bladedancer957.github.io/publication/xiaodan-2021-muse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://perfec-yu.github.io/slides/example/</link>
+      <link>https://bladedancer957.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/slides/example/</guid>
+      <guid>https://bladedancer957.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -199,33 +199,33 @@ $$&lt;/p&gt;
     
     <item>
       <title>FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation</title>
-      <link>https://perfec-yu.github.io/publication/han-etal-2018-fewrel/</link>
+      <link>https://bladedancer957.github.io/publication/han-etal-2018-fewrel/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/han-etal-2018-fewrel/</guid>
+      <guid>https://bladedancer957.github.io/publication/han-etal-2018-fewrel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention</title>
-      <link>https://perfec-yu.github.io/publication/han-etal-2018-hierarchical/</link>
+      <link>https://bladedancer957.github.io/publication/han-etal-2018-hierarchical/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/han-etal-2018-hierarchical/</guid>
+      <guid>https://bladedancer957.github.io/publication/han-etal-2018-hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tracking of Enriched Dialog States for Flexible Conversational Information Access</title>
-      <link>https://perfec-yu.github.io/publication/dai-2018-tracking/</link>
+      <link>https://bladedancer957.github.io/publication/dai-2018-tracking/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/publication/dai-2018-tracking/</guid>
+      <guid>https://bladedancer957.github.io/publication/dai-2018-tracking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Project</title>
-      <link>https://perfec-yu.github.io/project/example/</link>
+      <link>https://bladedancer957.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/project/example/</guid>
+      <guid>https://bladedancer957.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -236,17 +236,17 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://perfec-yu.github.io/admin/config.yml</link>
+      <link>https://bladedancer957.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/admin/config.yml</guid>
+      <guid>https://bladedancer957.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts on Randomizing Lanugage Modeling for Better Language Learning</title>
-      <link>https://perfec-yu.github.io/post/splm/</link>
+      <link>https://bladedancer957.github.io/post/splm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/post/splm/</guid>
+      <guid>https://bladedancer957.github.io/post/splm/</guid>
       <description>&lt;h2 id=&#34;why-writing-this-and-what-this-is-about&#34;&gt;Why Writing This and What This Is About&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;TLDR&lt;/em&gt;&lt;/strong&gt;: Why? Call for broader discussion and potential collaboration to improve and implement this idea. What? About building a new framework that is not based on a constant language model, but a stochastic language model. This new framework explains a lot challenges and recent work on LLMs and provides insights on improving langauge learning. &lt;a href=&#34;#overview&#34;&gt;Then click there to the main content&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I recently came up with notion of modeling language not as a constant language model, but a random variable or a stoachastic language model. This idea originates from many things I have worked on, am working on and have read about. Also, it is not a completely new idea, instead it is related, similar to, and combines several established methods and mathematical models, though with minor differences to each of them. In fact I wouldn&amp;rsquo;t even expect any framework that completely negates everything intelligent researchers have built for AI and machine learning. Anyway, I have been trying to formulate this stochastic language model and see what kind of insights we can get from this perspective. Interestingly, as I am developing this framework, I notice this is closely related a lot challenges or methodlogies in current LLM research, including but not limited to hallucination, biases, continual fine-tuning/knowledge editing/instruction fine-tuning/RLHF, tool learning, role playing, retrieval augmentation, mixture-of-experts and multimodality (the connection between randomizing a language model and multimodality sounds a little weird, but I will explain later).&lt;/p&gt;
@@ -340,7 +340,7 @@ $$&lt;/p&gt;
                /post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_484d8320a907c6c3b0259955de46525f.webp 400w,
                /post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_9be75e54b576e1f9f3a6887e64b65b52.webp 760w,
                /post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://perfec-yu.github.io/post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_484d8320a907c6c3b0259955de46525f.webp&#34;
+               src=&#34;https://bladedancer957.github.io/post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_484d8320a907c6c3b0259955de46525f.webp&#34;
                width=&#34;760&#34;
                height=&#34;285&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -369,7 +369,7 @@ $$&lt;/p&gt;
                /post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_3e0d7690c920d09dd7d06b9f44a363b0.webp 400w,
                /post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_b411ef1a76eae7a325c2a3f6f19a7250.webp 760w,
                /post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://perfec-yu.github.io/post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_3e0d7690c920d09dd7d06b9f44a363b0.webp&#34;
+               src=&#34;https://bladedancer957.github.io/post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_3e0d7690c920d09dd7d06b9f44a363b0.webp&#34;
                width=&#34;760&#34;
                height=&#34;204&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
