@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | 于</title>
-    <link>https://perfec-yu.github.io/post/</link>
-      <atom:link href="https://perfec-yu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | 张</title>
+    <link>https://bladedancer957.github.io/post/</link>
+      <atom:link href="https://bladedancer957.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://perfec-yu.github.io/media/icon_hu70abeb15d803708cc6c51bdc94153538_368998_512x512_fill_lanczos_center_3.png</url>
+      <url>https://bladedancer957.github.io/media/icon_hu70abeb15d803708cc6c51bdc94153538_368998_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://perfec-yu.github.io/post/</link>
+      <link>https://bladedancer957.github.io/post/</link>
     </image>
     
     <item>
       <title>Thoughts on Randomizing Lanugage Modeling for Better Language Learning</title>
-      <link>https://perfec-yu.github.io/post/splm/</link>
+      <link>https://bladedancer957.github.io/post/splm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://perfec-yu.github.io/post/splm/</guid>
+      <guid>https://bladedancer957.github.io/post/splm/</guid>
       <description>&lt;h2 id=&#34;why-writing-this-and-what-this-is-about&#34;&gt;Why Writing This and What This Is About&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;TLDR&lt;/em&gt;&lt;/strong&gt;: Why? Call for broader discussion and potential collaboration to improve and implement this idea. What? About building a new framework that is not based on a constant language model, but a stochastic language model. This new framework explains a lot challenges and recent work on LLMs and provides insights on improving langauge learning. &lt;a href=&#34;#overview&#34;&gt;Then click there to the main content&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I recently came up with notion of modeling language not as a constant language model, but a random variable or a stoachastic language model. This idea originates from many things I have worked on, am working on and have read about. Also, it is not a completely new idea, instead it is related, similar to, and combines several established methods and mathematical models, though with minor differences to each of them. In fact I wouldn&amp;rsquo;t even expect any framework that completely negates everything intelligent researchers have built for AI and machine learning. Anyway, I have been trying to formulate this stochastic language model and see what kind of insights we can get from this perspective. Interestingly, as I am developing this framework, I notice this is closely related a lot challenges or methodlogies in current LLM research, including but not limited to hallucination, biases, continual fine-tuning/knowledge editing/instruction fine-tuning/RLHF, tool learning, role playing, retrieval augmentation, mixture-of-experts and multimodality (the connection between randomizing a language model and multimodality sounds a little weird, but I will explain later).&lt;/p&gt;
@@ -110,7 +110,7 @@ $$&lt;/p&gt;
                /post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_484d8320a907c6c3b0259955de46525f.webp 400w,
                /post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_9be75e54b576e1f9f3a6887e64b65b52.webp 760w,
                /post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://perfec-yu.github.io/post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_484d8320a907c6c3b0259955de46525f.webp&#34;
+               src=&#34;https://bladedancer957.github.io/post/splm/ripple_1_hub4abfb4e90ee4a162fc9036c24ba2b14_350485_484d8320a907c6c3b0259955de46525f.webp&#34;
                width=&#34;760&#34;
                height=&#34;285&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -139,7 +139,7 @@ $$&lt;/p&gt;
                /post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_3e0d7690c920d09dd7d06b9f44a363b0.webp 400w,
                /post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_b411ef1a76eae7a325c2a3f6f19a7250.webp 760w,
                /post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://perfec-yu.github.io/post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_3e0d7690c920d09dd7d06b9f44a363b0.webp&#34;
+               src=&#34;https://bladedancer957.github.io/post/splm/ripple_2_hu05783c26468b1f1bcb437b0b368bd3c3_177036_3e0d7690c920d09dd7d06b9f44a363b0.webp&#34;
                width=&#34;760&#34;
                height=&#34;204&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
