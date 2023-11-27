@@ -142,9 +142,12 @@
                   <a href="posters/EMNLP2023_Poster.pdf">Poster</a>&nbsp/&nbsp
                   <a href="slides/EMNLP2023_Presentation.pdf">Slide</a>
       
-                  <p align="justify">
-                    Continual Named Entity Recognition (CNER) is a burgeoning area, which involves updating an existing model by incorporating new entity types sequentially. Nevertheless, continual learning approaches are often severely afflicted by catastrophic forgetting. This issue is intensified in CNER due to the consolidation of old entity types from previous steps into the non-entity type at each step, leading to what is known as the semantic shift problem of the non-entity type. In this paper, we introduce a pooled feature distillation loss that skillfully navigates the trade-off between retaining knowledge of old entity types and acquiring new ones, thereby more effectively mitigating the problem of catastrophic forgetting. Additionally, we develop a confidence-based pseudo-labeling for the non-entity type, \emph{i.e.,} predicting entity types using the old model to handle the semantic shift of the non-entity type. Following the pseudo-labeling process, we suggest an adaptive re-weighting type-balanced learning strategy to handle the issue of biased type distribution. We carried out comprehensive experiments on ten CNER settings using three different datasets. The results illustrate that our method significantly outperforms prior state-of-the-art approaches, registering an average improvement of 6.3\% and 8.0\% in Micro and Macro F1 scores, respectively.
-                  </p>
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    Continual Named Entity Recognition (CNER) is a burgeoning area, which involves updating an existing model by incorporating new entity types sequentially. Nevertheless, continual learning approaches are often severely afflicted by catastrophic forgetting. This issue is intensified in CNER due to the consolidation of old entity types from previous steps into the non-entity type at each step, leading to what is known as the semantic shift problem of the non-entity type. In this paper, we introduce a pooled feature distillation loss that skillfully navigates the trade-off between retaining knowledge of old entity types and acquiring new ones, thereby more effectively mitigating the problem of catastrophic forgetting. Additionally, we develop a confidence-based pseudo-labeling for the non-entity type, \emph{i.e.,} predicting entity types using the old model to handle the semantic shift of the non-entity type. Following the pseudo-labeling process, we suggest an adaptive re-weighting type-balanced learning strategy to handle the issue of biased type distribution. We carried out comprehensive experiments on ten CNER settings using three different datasets. The results illustrate that our method significantly outperforms prior state-of-the-art approaches, registering an average improvement of 6.3% and 8.0% in Micro and Macro F1 scores, respectively.
+                  </details>
                 </td>
               </tr>
 
@@ -175,9 +178,12 @@
                   <a href="https://github.com/BladeDancer957/INER_RDP">Code</a>&nbsp/&nbsp
                   <a href="slides/CIKM2023_Presentation.pdf">Slide</a> 
       
-                  <p align="justify">
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
                     Incremental Named Entity Recognition (INER) involves the sequential learning of new entity types without accessing the training data of previously learned types. However, INER faces the challenge of catastrophic forgetting specific for incremental learning, further aggravated by background shift (i.e., old and future entity types are labeled as the non-entity type in the current task). To address these challenges, we propose a method called task Relation Distillation and Prototypical pseudo label (RDP) for INER. Specifically, to tackle catastrophic forgetting, we introduce a task relation distillation scheme that serves two purposes: 1) ensuring inter-task semantic consistency across different incremental learning tasks by minimizing inter-task relation distillation loss, and 2) enhancing the model's prediction confidence by minimizing intra-task self-entropy loss. Simultaneously, to mitigate background shift, we develop a prototypical pseudo label strategy that distinguishes old entity types from the current non-entity type using the old model. This strategy generates high-quality pseudo labels by measuring the distances between token embeddings and type-wise prototypes. We conducted extensive experiments on ten INER settings of three benchmark datasets (i.e., CoNLL2003, I2B2, and OntoNotes5). The results demonstrate that our method achieves significant improvements over the previous state-of-the-art methods, with an average increase of 6.08% in Micro F1 score and 7.71% in Macro F1 score.
-                  </p>
+                  </details>
                 </td>
               </tr>
 
@@ -204,12 +210,283 @@
                   <a href="https://github.com/BladeDancer957/DualGATs">Code</a>&nbsp/&nbsp
                   <a href="posters/ACL2023_Poster.pdf">Poster</a>
       
-                  <p align="justify">
-                    Capturing complex contextual dependencies plays a vital role in Emotion Recognition in Conversations (ERC). Previous studies have predominantly focused on speaker-aware context modeling, overlooking the discourse structure of the conversation. In this paper, we introduce Dual Graph ATtention networks (DualGATs) to concurrently consider the complementary aspects of discourse structure and speaker-aware context, aiming for more precise ERC. Specifically, we devise a Discourse-aware GAT (DisGAT) module to incorporate discourse structural information by analyzing the discourse dependencies between utterances. Additionally, we develop a Speaker-aware GAT (SpkGAT) module to incorporate speaker-aware contextual information by considering the speaker dependencies between utterances. Furthermore, we design an interaction module that facilitates the integration of the DisGAT and SpkGAT modules, enabling the effective interchange of relevant information between the two modules. We extensively evaluate our method on four datasets, and experimental results demonstrate that our proposed DualGATs surpass state-of-the-art baselines on the majority of the datasets.                  </p>
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    Capturing complex contextual dependencies plays a vital role in Emotion Recognition in Conversations (ERC). Previous studies have predominantly focused on speaker-aware context modeling, overlooking the discourse structure of the conversation. In this paper, we introduce Dual Graph ATtention networks (DualGATs) to concurrently consider the complementary aspects of discourse structure and speaker-aware context, aiming for more precise ERC. Specifically, we devise a Discourse-aware GAT (DisGAT) module to incorporate discourse structural information by analyzing the discourse dependencies between utterances. Additionally, we develop a Speaker-aware GAT (SpkGAT) module to incorporate speaker-aware contextual information by considering the speaker dependencies between utterances. Furthermore, we design an interaction module that facilitates the integration of the DisGAT and SpkGAT modules, enabling the effective interchange of relevant information between the two modules. We extensively evaluate our method on four datasets, and experimental results demonstrate that our proposed DualGATs surpass state-of-the-art baselines on the majority of the datasets.                 
+                  </details>
                 </td>
               </tr>
 
+
+
+              <tr>
+                <td style="padding:25px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/5.png' width="250">
+                  </div>
+                </td>
+                <td style="padding:25px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <papertitle>Decomposing Logits Distillation for Incremental Named Entity Recognition
+                    </papertitle>
+                  </a>
+                  <br /><br />
+                  <strong>Duzhen Zhang</strong>,
+                  Yahan Yu,
+                  Feilong Chen,
+                  Xiuyi Chen,
+                  <br /><br />
+                  <strong>SIGIR2023</strong>
+                  <br>
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3539618.3591970">Paper</a>&nbsp/&nbsp
+                  <a href="posters/SIGIR_Poster.pdf">Poster</a>
+      
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    Incremental Named Entity Recognition (INER) aims to continually train a model with new data, recognizing emerging entity types without forgetting previously learned ones. Prior INER methods have shown that Logits Distillation (LD), which involves preserving predicted logits via knowledge distillation, effectively alleviates this challenging issue. In this paper, we discover that a predicted logit can be decomposed into two terms that measure the likelihood of an input token belonging to a specific entity type or not. However, the traditional LD only preserves the sum of these two terms without considering the change in each component. To explicitly constrain each term, we propose a novel Decomposing Logits Distillation (DLD) method, enhancing the model's ability to retain old knowledge and mitigate catastrophic forgetting. Moreover, DLD is model-agnostic and easy to implement. Extensive experiments show that DLD consistently improves the performance of state-of-the-art INER methods across ten INER settings in three datasets.                 
+                  </details>
+                  </td>
+              </tr>
+
+
+              <tr>
+                <td style="padding:25px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/7.png' width="250">
+                  </div>
+                </td>
+                <td style="padding:25px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <papertitle>Federated Incremental Semantic Segmentation
+                    </papertitle>
+                  </a>
+                  <br /><br />
+                  Jiahua Dong*,
+                  <strong>Duzhen Zhang*</strong>,
+                  Yang Cong,
+                  Wei Cong,
+                  <br>
+                  Henghui Ding,
+                  Dengxin Dai,
+                  <br /><br />
+                  <strong>CVPR2023</strong>
+                  <br>
+                  <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Dong_Federated_Incremental_Semantic_Segmentation_CVPR_2023_paper.html">Paper</a>&nbsp/&nbsp
+                  <a href="https://github.com/JiahuaDong/FISS">Code</a>
+      
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    Federated learning-based semantic segmentation (FSS) has drawn widespread attention via decentralized training on local clients. However, most FSS models assume categories are fxed in advance, thus heavily undergoing forgetting on old categories in practical applications where local clients receive new categories incrementally while have no memory storage to access old classes. Moreover, new clients collecting novel classes may join in the global training of FSS, which further exacerbates catastrophic forgetting. To surmount the above challenges, we propose a Forgetting-Balanced Learning (FBL) model to address heterogeneous forgetting on old classes from both intra-client and inter-client aspects. Specifically, under the guidance of pseudo labels generated via adaptive class-balanced pseudo labeling, we develop a forgetting-balanced semantic compensation loss and a forgetting-balanced relation consistency loss to rectify intra-client heterogeneous forgetting of old categories with background shift. It performs balanced gradient propagation and relation consistency distillation within local clients. Moreover, to tackle heterogeneous forgetting from inter-client aspect, we propose a task transition monitor. It can identify new classes under privacy protection and store the latest old global model for relation distillation. Qualitative experiments reveal large improvement of our model against comparison methods. The code is available at https://github.com/JiahuaDong/FISS.         
+                  </details>
+                  </td>
+              </tr>
+
+              
+              <tr>
+                <td style="padding:25px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/3.png' width="250">
+                  </div>
+                </td>
+                <td style="padding:25px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <papertitle>Structure Aware Multi-Graph Network for Multi-Modal Emotion Recognition in Conversations
+                    </papertitle>
+                  </a>
+                  <br /><br />
+                  <strong>Duzhen Zhang*</strong>,
+                  Feilong Chen,
+                  Jianlong Chang,
+                  Xiuyi Chen,
+                  Qi Tian,
+                  <br /><br />
+                  <strong>IEEE TMM</strong>
+                  <br>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10219015">Paper</a>
+      
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    Multi-Modal Emotion Recognition in Conversations (MMERC) is an increasingly active research field that leverages multi-modal signals to understand the feelings behind each utterance. Modeling contextual interactions and multi-modal fusion lie at the heart of this field, with graph-based models recently being widely used for MMERC to capture global multi-modal contextual information. However, these models generally mix all modality representations in a single graph, and utterances in each modality are fully connected, potentially ignoring three problems:(1) the heterogeneity of the multi-modal context, (2) the redundancy of contextual information, and (3) over-smoothing of the graph networks. To address these problems, we propose a Structure Aware Multi-Graph Network (SAMGN) for MMERC. Specifically, we construct multiple modality-specific graphs to model the heterogeneity of the multi-modal context. Instead of fully connecting the utterances in each modality, we design a structure learning module that determines whether edges exist between the utterances. This module reduces redundancy by forcing each utterance to focus on the contextual ones that contribute to its emotion recognition, acting like a message propagating reducer to alleviate over-smoothing. Then, we develop the SAMGN via Dual-Stream Propagation (DSP), which contains two propagation streams, i.e., intra- and inter-modal, performed in parallel to aggregate the heterogeneous modality information from multi-graphs. DSP also contains a gating unit that adaptively integrates the co-occurrence information from the above two propagations for emotion recognition. Experiments on two popular MMERC datasets demonstrate that SAMGN achieves new State-Of-The-Art (SOTA) results.               
+                  </details>
+                </td>
+                  </tr>
+
+
+
+            
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/12.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>VLP: A Survey on Vision-­Language Pre­-training
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      Feilong Chen*,
+                      <strong>Duzhen Zhang*</strong>,
+                      Minglun Han,
+                      Xiuyi Chen,
+                      <br>
+                      Jing Shi,
+                      Shuang Xu,
+                      Bo Xu,
+                      <br /><br />
+                      <strong>Machine Intelligence Research</strong>
+                      <br>
+                      <a href="https://link.springer.com/article/10.1007/s11633-022-1369-5">Paper</a>
+               
           
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        In the past few years, the emergence of pre-training models has brought uni-modal fields such as computer vision (CV) and natural language processing (NLP) to a new era. Substantial works have shown that they are beneficial for downstream uni-modal tasks and avoid training a new model from scratch. So can such pre-trained models be applied to multi-modal tasks? Researchers have explored this problem and made significant progress. This paper surveys recent advances and new frontiers in vision-language pre-training (VLP), including image-text and video-text pre-training. To give readers a better overall grasp of VLP, we first review its recent advances in five aspects: feature extraction, model architecture, pre-training objectives, pre-training datasets, and downstream tasks. Then, we summarize the specific VLP models in detail. Finally, we discuss the new frontiers in VLP. To the best of our knowledge, this is the first survey focused on VLP. We hope that this survey can shed light on future research in the VLP field.                      </details>
+                      </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/2.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>TSAM: A Two-Stream Attention Model for Causal Emotion Entailment
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      <strong>Duzhen Zhang</strong>,
+                      Zhen Yang,
+                      Fandong Meng,
+                      Xiuyi Chen,
+                      Jie Zhou,
+                      <br /><br />
+                      <strong>COLING2022 (Oral)</strong>
+                      <br>
+                      <a href="https://aclanthology.org/2022.coling-1.588/">Paper</a>&nbsp/&nbsp
+                      <a href="https://github.com/BladeDancer957/TSAM">Code</a>
+          
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        Causal Emotion Entailment (CEE) aims to discover the potential causes behind an emotion in a conversational utterance. Previous works formalize CEE as independent utterance pair classification problems, with emotion and speaker information neglected. From a new perspective, this paper considers CEE in a joint framework. We classify multiple utterances synchronously to capture the correlations between utterances in a global view and propose a Two-Stream Attention Model (TSAM) to effectively model the speaker’s emotional influences in the conversational history. Specifically, the TSAM comprises three modules: Emotion Attention Network (EAN), Speaker Attention Network (SAN), and interaction module. The EAN and SAN incorporate emotion and speaker information in parallel, and the subsequent interaction module effectively interchanges relevant information between the EAN and SAN via a mutual BiAffine transformation. Extensive experimental results demonstrate that our model achieves new State-Of-The-Art (SOTA) performance and outperforms baselines remarkably.                      </details>
+                      </td>
+                  </tr>
+
+
+
+
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/10.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>Recent Advances and New Frontiers in Spiking Neural Networks
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      <strong>Duzhen Zhang</strong>,
+                      Shuncheng Jia,
+                      Qingyu Wang,
+                      <br /><br />
+                      <strong>IJCAI2022</strong>
+                      <br>
+                      <a href="https://arxiv.org/abs/2204.07050">Paper</a>
+          
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        In recent years, spiking neural networks (SNNs) have received extensive attention in brain-inspired intelligence due to their rich spatially-temporal dynamics, various encoding methods, and event-driven characteristics that naturally fit the neuromorphic hardware. With the development of SNNs, brain-inspired intelligence, an emerging research field inspired by brain science achievements and aiming at artificial general intelligence, is becoming hot. This paper reviews recent advances and discusses new frontiers in SNNs from five major research topics, including essential elements (i.e., spiking neuron models, encoding methods, and topology structures), neuromorphic datasets, optimization algorithms, software, and hardware frameworks. We hope our survey can help researchers understand SNNs better and inspire new works to advance this field.
+                      </details>
+                      </td>
+                  </tr>
+
+
+
+
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/9.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>Multi­scale Dynamic Coding improved Spiking Actor Network for Reinforcement Learning
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      <strong>Duzhen Zhang</strong>,
+                      Tielin Zhang,
+                      Shuncheng Jia,
+                      Bo Xu,
+                      <br /><br />
+                      <strong>AAAI2022 (Oral)</strong>
+                      <br>
+                      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/19879">Paper</a>
+          
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        With the help of deep neural networks (DNNs), deep reinforcement learning (DRL) has achieved great success on many complex tasks, from games to robotic control. Compared to DNNs with partial brain-inspired structures and functions, spiking neural networks (SNNs) consider more biological features, including spiking neurons with complex dynamics and learning paradigms with biologically plausible plasticity principles. Inspired by the efficient computation of cell assembly in the biological brain, whereby memory-based coding is much more complex than readout, we propose a multiscale dynamic coding improved spiking actor network (MDC-SAN) for reinforcement learning to achieve effective decision-making. The population coding at the network scale is integrated with the dynamic neurons coding (containing 2nd-order neuronal dynamics) at the neuron scale towards a powerful spatial-temporal state representation. Extensive experimental results show that our MDC-SAN performs better than its counterpart deep actor network (based on DNNs) on four continuous control tasks from OpenAI gym. We think this is a significant attempt to improve SNNs from the perspective of efficient coding towards effective decision-making, just like that in biological networks.                 
+                      </details>
+                      </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/1.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>Knowledge Aware Emotion Recognition in Textual Conversations via Multi-Task Incremental Transformer
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      <strong>Duzhen Zhang</strong>,
+                      Xiuyi Chen,
+                      Shuang Xu,
+                      Bo Xu,
+                      <br /><br />
+                      <strong>COLING2020 (Oral)</strong>
+                      <br>
+                      <a href="https://aclanthology.org/2020.coling-main.392/">Paper</a>
+          
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        Emotion recognition in textual conversations (ERTC) plays an important role in a wide range of applications, such as opinion mining, recommender systems, and so on. ERTC, however, is a challenging task. For one thing, speakers often rely on the context and commonsense knowledge to express emotions; for another, most utterances contain neutral emotion in conversations, as a result, the confusion between a few non-neutral utterances and much more neutral ones restrains the emotion recognition performance. In this paper, we propose a novel Knowledge Aware Incremental Transformer with Multi-task Learning (KAITML) to address these challenges. Firstly, we devise a dual-level graph attention mechanism to leverage commonsense knowledge, which augments the semantic information of the utterance. Then we apply the Incremental Transformer to encode multi-turn contextual utterances. Moreover, we are the first to introduce multi-task learning to alleviate the aforementioned confusion and thus further improve the emotion recognition performance. Extensive experimental results show that our KAITML model outperforms the state-of-the-art models across five benchmark datasets.                     
+                      </details>
+                      </td>
+                  </tr>
+
+
 
 
 
