@@ -185,7 +185,8 @@
             <li>
               <strong>Brain­-inspired Intelligence, Spiking Neural Networks, Reinforcement Learning:</strong>
               <a href="https://ojs.aaai.org/index.php/AAAI/article/view/19879">[AAAI2022]</a>
-              , <a href="https://arxiv.org/abs/2204.07050">[IJCAI2022]</a>
+              , <a href="https://arxiv.org/abs/2204.07050">[IJCAI2022]</a>,
+              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25081">[AAAI2023]</a>
               , <a href="https://arxiv.org/abs/2301.10292">[MIR2023]</a>
               , <a href="https://arxiv.org/pdf/2309.14078">[NeurIPS2023]</a>
           </li>
@@ -213,6 +214,8 @@
               </tr>
             </tbody>
           </table>
+
+          <p>* denotes equal contribution.</p>
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -489,6 +492,40 @@
                     Multi-Modal Emotion Recognition in Conversations (MMERC) is an increasingly active research field that leverages multi-modal signals to understand the feelings behind each utterance. Modeling contextual interactions and multi-modal fusion lie at the heart of this field, with graph-based models recently being widely used for MMERC to capture global multi-modal contextual information. However, these models generally mix all modality representations in a single graph, and utterances in each modality are fully connected, potentially ignoring three problems:(1) the heterogeneity of the multi-modal context, (2) the redundancy of contextual information, and (3) over-smoothing of the graph networks. To address these problems, we propose a Structure Aware Multi-Graph Network (SAMGN) for MMERC. Specifically, we construct multiple modality-specific graphs to model the heterogeneity of the multi-modal context. Instead of fully connecting the utterances in each modality, we design a structure learning module that determines whether edges exist between the utterances. This module reduces redundancy by forcing each utterance to focus on the contextual ones that contribute to its emotion recognition, acting like a message propagating reducer to alleviate over-smoothing. Then, we develop the SAMGN via Dual-Stream Propagation (DSP), which contains two propagation streams, i.e., intra- and inter-modal, performed in parallel to aggregate the heterogeneous modality information from multi-graphs. DSP also contains a gating unit that adaptively integrates the co-occurrence information from the above two propagations for emotion recognition. Experiments on two popular MMERC datasets demonstrate that SAMGN achieves new State-Of-The-Art (SOTA) results.               
                   </details>
                 </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/15.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>Complex Dynamic Neurons Improved Spiking Transformer Network for Efficient Automatic Speech Recognition
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      Qingyu Wang,
+                      Tielin Zhang,
+                      Minglun Han,
+                      Yi Wang,
+                      <strong>Duzhen Zhang</strong>,
+                      Bo Xu,
+                      <br /><br />
+                      <strong>AAAI2023</strong>
+                      <br>
+                      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25081">Paper</a>
+          
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        The spiking neural network (SNN) using leaky-integrated-and-fire (LIF) neurons has been commonly used in automatic speech recognition (ASR) tasks. However, the LIF neuron is still relatively simple compared to that in the biological brain. Further research on more types of neurons with different scales of neuronal dynamics is necessary. Here we introduce four types of neuronal dynamics to post-process the sequential patterns generated from the spiking transformer to get the complex dynamic neuron improved spiking transformer neural network (DyTr-SNN). We found that the DyTr-SNN could handle the non-toy automatic speech recognition task well, representing a lower phoneme error rate, lower computational cost, and higher robustness. These results indicate that the further cooperation of SNNs and neural dynamics at the neuron and network scales might have much in store for the future, especially on the ASR tasks.
+                      </details>
+                    </td>
                   </tr>
 
 
