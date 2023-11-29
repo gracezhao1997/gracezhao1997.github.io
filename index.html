@@ -187,7 +187,8 @@
               <a href="https://ojs.aaai.org/index.php/AAAI/article/view/19879">[AAAI2022]</a>
               , <a href="https://arxiv.org/abs/2204.07050">[IJCAI2022]</a>,
               <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25081">[AAAI2023]</a>
-              , <a href="https://arxiv.org/abs/2301.10292">[MIR2023]</a>
+              , <a href="https://arxiv.org/abs/2301.10292">[MIR2023]</a>,
+              <a href="https://arxiv.org/abs/2308.02557">[Preprint]</a>
               , <a href="https://arxiv.org/pdf/2309.14078">[NeurIPS2023]</a>
           </li>
 
@@ -322,6 +323,37 @@
                       Details
                     </summary>
                     Neural ordinary differential equations (ODEs) are widely recognized as the standard for modeling physical mechanisms, which help to perform approximate inference in unknown physical or biological environments. In partially observable (PO) environments, how to infer unseen information from raw observations puzzled the agents. By using a recurrent policy with a compact context, context-based reinforcement learning provides a flexible way to extract unobservable information from historical transitions. To help the agent extract more dynamics-related information, we present a novel ODE-based recurrent model combines with model-free reinforcement learning (RL) framework to solve partially observable Markov decision processes (POMDPs). We experimentally demonstrate the efficacy of our methods across various PO continuous control and meta-RL tasks. Furthermore, our experiments illustrate that our method is robust against irregular observations, owing to the ability of ODEs to model irregularly-sampled time series.                
+                  </details>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td style="padding:25px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/16.png' width="250">
+                  </div>
+                </td>
+                <td style="padding:25px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <papertitle>Attention-free Spikformer: Mixing Spike Sequences with Simple Linear Transforms
+                    </papertitle>
+                  </a>
+                  <br /><br />
+                  Qingyu Wang*,
+                  <strong>Duzhen Zhang*</strong>,
+                  Tielin Zhang,
+                  Bo Xu,
+                  <br /><br />
+                  <strong>Preprint</strong>
+                  <br>
+                  <a href="https://arxiv.org/abs/2308.02557">Paper</a>
+      
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    By integrating the self-attention capability and the biological properties of Spiking Neural Networks (SNNs), Spikformer applies the flourishing Transformer architecture to SNNs design. It introduces a Spiking Self-Attention (SSA) module to mix sparse visual features using spike-form Query, Key, and Value, resulting in the State-Of-The-Art (SOTA) performance on numerous datasets compared to previous SNN-like frameworks. In this paper, we demonstrate that the Spikformer architecture can be accelerated by replacing the SSA with an unparameterized Linear Transform (LT) such as Fourier and Wavelet transforms. These transforms are utilized to mix spike sequences, reducing the quadratic time complexity to log-linear time complexity. They alternate between the frequency and time domains to extract sparse visual features, showcasing powerful performance and efficiency. We conduct extensive experiments on image classification using both neuromorphic and static datasets. The results indicate that compared to the SOTA Spikformer with SSA, Spikformer with LT achieves higher Top-1 accuracy on neuromorphic datasets (i.e., CIFAR10-DVS and DVS128 Gesture) and comparable Top-1 accuracy on static datasets (i.e., CIFAR-10 and CIFAR-100). Furthermore, Spikformer with LT achieves approximately 29-51% improvement in training speed, 61-70% improvement in inference speed, and reduces memory usage by 4-26% due to not requiring learnable parameters.
                   </details>
                 </td>
               </tr>
