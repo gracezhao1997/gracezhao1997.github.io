@@ -88,6 +88,11 @@
             </li>
 
 
+            <li><span style="color: gray" size="6px">[2023.09]</span>
+              🎉 One paper: <a href="https://arxiv.org/abs/2309.14078"><strong>ODE-RNN4RL</strong></a> is accepted by <strong>NeurIPS2023</strong>
+            </li>
+
+
             <li><span style="color: gray" size="6px">[2023.08]</span>
               🎉 One paper: <a href="https://dl.acm.org/doi/abs/10.1145/3583780.3615075"><strong>RDP</strong></a> is accepted by <strong>CIKM2023</strong> <span style="color: red" size="6px"><strong>Oral</strong></span>
             </li>
@@ -236,6 +241,39 @@
                       Details
                     </summary>
                     Continual Named Entity Recognition (CNER) is a burgeoning area, which involves updating an existing model by incorporating new entity types sequentially. Nevertheless, continual learning approaches are often severely afflicted by catastrophic forgetting. This issue is intensified in CNER due to the consolidation of old entity types from previous steps into the non-entity type at each step, leading to what is known as the semantic shift problem of the non-entity type. In this paper, we introduce a pooled feature distillation loss that skillfully navigates the trade-off between retaining knowledge of old entity types and acquiring new ones, thereby more effectively mitigating the problem of catastrophic forgetting. Additionally, we develop a confidence-based pseudo-labeling for the non-entity type, \emph{i.e.,} predicting entity types using the old model to handle the semantic shift of the non-entity type. Following the pseudo-labeling process, we suggest an adaptive re-weighting type-balanced learning strategy to handle the issue of biased type distribution. We carried out comprehensive experiments on ten CNER settings using three different datasets. The results illustrate that our method significantly outperforms prior state-of-the-art approaches, registering an average improvement of 6.3% and 8.0% in Micro and Macro F1 scores, respectively.
+                  </details>
+                </td>
+              </tr>
+
+
+            
+              <tr>
+                <td style="padding:25px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/13.png' width="250">
+                  </div>
+                </td>
+                <td style="padding:25px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <papertitle>ODE-based Recurrent Model-free Reinforcement Learning for POMDPs
+                    </papertitle>
+                  </a>
+                  <br /><br />
+                  Xuanle Zhao,
+                  <strong>Duzhen Zhang</strong>,
+                  Liyuan Han,
+                  Tielin Zhang,
+                  Bo Xu,
+                  <br /><br />
+                  <strong>NeurIPS2023</strong>
+                  <br>
+                  <a href="https://arxiv.org/pdf/2309.14078">Paper</a>
+      
+                  <details align="justify">
+                    <summary>
+                      Details
+                    </summary>
+                    Neural ordinary differential equations (ODEs) are widely recognized as the standard for modeling physical mechanisms, which help to perform approximate inference in unknown physical or biological environments. In partially observable (PO) environments, how to infer unseen information from raw observations puzzled the agents. By using a recurrent policy with a compact context, context-based reinforcement learning provides a flexible way to extract unobservable information from historical transitions. To help the agent extract more dynamics-related information, we present a novel ODE-based recurrent model combines with model-free reinforcement learning (RL) framework to solve partially observable Markov decision processes (POMDPs). We experimentally demonstrate the efficacy of our methods across various PO continuous control and meta-RL tasks. Furthermore, our experiments illustrate that our method is robust against irregular observations, owing to the ability of ODEs to model irregularly-sampled time series.                
                   </details>
                 </td>
               </tr>
@@ -477,7 +515,39 @@
                         Causal Emotion Entailment (CEE) aims to discover the potential causes behind an emotion in a conversational utterance. Previous works formalize CEE as independent utterance pair classification problems, with emotion and speaker information neglected. From a new perspective, this paper considers CEE in a joint framework. We classify multiple utterances synchronously to capture the correlations between utterances in a global view and propose a Two-Stream Attention Model (TSAM) to effectively model the speaker’s emotional influences in the conversational history. Specifically, the TSAM comprises three modules: Emotion Attention Network (EAN), Speaker Attention Network (SAN), and interaction module. The EAN and SAN incorporate emotion and speaker information in parallel, and the subsequent interaction module effectively interchanges relevant information between the EAN and SAN via a mutual BiAffine transformation. Extensive experimental results demonstrate that our model achieves new State-Of-The-Art (SOTA) performance and outperforms baselines remarkably.                      </details>
                       </td>
                   </tr>
+                  
 
+                  <tr>
+                    <td style="padding:25px;width:35%;vertical-align:middle">
+                      <div class="one">
+                        <img src='images/14.png' width="250">
+                      </div>
+                    </td>
+                    <td style="padding:25px;width:70%;vertical-align:middle">
+                      <a href="">
+                        <papertitle>Unsupervised and Pseudo-Supervised Vision-Language Alignment in Visual Dialog
+                        </papertitle>
+                      </a>
+                      <br /><br />
+                      Feilong,
+                      <strong>Duzhen Zhang</strong>,
+                      Xiuyi Chen,
+                      Jing Shi,
+                      Shuang Xu,
+                      Bo Xu,
+                      <br /><br />
+                      <strong>ACM MM2023</strong>
+                      <br>
+                      <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3547776">Paper</a>
+          
+                      <details align="justify">
+                        <summary>
+                          Details
+                        </summary>
+                        Visual dialog requires models to give reasonable answers according to a series of coherent questions and related visual concepts in images. However, most current work either focuses on attention-based fusion or pre-training on large-scale image-text pairs, ignoring the critical role of explicit vision-language alignment in visual dialog. To remedy this defect, we propose a novel unsupervised and pseudo-supervised vision-language alignment approach for visual dialog (AlignVD). Firstly, AlginVD utilizes the visual and dialog encoder to represent images and dialogs. Then, it explicitly aligns visual concepts with textual semantics via unsupervised and pseudo-supervised vision-language alignment (UVLA and PVLA). Specifically, UVLA utilizes a graph autoencoder, while PVLA uses dialog-guided visual grounding to conduct alignment. Finally, based on the aligned visual and textual representations, AlignVD gives a reasonable answer to the question via the cross-modal decoder. Extensive experiments on two large-scale visual dialog datasets have demonstrated the effectiveness of vision-language alignment, and our proposed AlignVD achieves new state-of-the-art results. In addition, our single model has won first place on the visual dialog challenge leaderboard with a NDCG metric of 78.70, surpassing the previous best ensemble model by about 1 point.
+                      </details>
+                    </td>
+                  </tr>
 
 
 
